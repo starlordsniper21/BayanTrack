@@ -1,0 +1,124 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Expense List */
+.expense-list {
+    position: relative;
+}
+
+.expense-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.expense-list button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.expense-list .edit-btn {
+    right: 80px;
+    color: #007bff;
+}
+
+.expense-list .delete-btn {
+    right: 20px;
+    color: #dc3545;
+}
+
+/* Total Expense Styling */
+.total-expense {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#total {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Analytics Section */
+.analytics {
+    margin-top: 30px;
+}
+
+.analytics ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.analytics li {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#expense-chart {
+    margin-top: 20px;
+}
